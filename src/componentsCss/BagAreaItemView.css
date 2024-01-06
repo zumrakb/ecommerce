@@ -1,0 +1,74 @@
+.bagArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.pTagViewBag {
+  color: var(--Font-White, #fff);
+  font-family: Cabin;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.bagItems {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.bagItemfirst {
+  margin-top: 0;
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  gap: 16px;
+  border-radius: 12px;
+  background: var(--UI-White, #fff);
+}
+
+.bagImgfirst {
+  margin-top: 0;
+  width: 64px;
+  height: 83.84px;
+  flex-shrink: 0;
+}
+.bagItem {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  gap: 16px;
+  border-radius: 12px;
+  background: var(--UI-White, #fff);
+}
+
+.bagImg {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+}
+
+.viewbag {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 0 18px;
+  border-radius: 14px;
+  background: var(--UI-Dark, #1a1f16);
+}
+
+.title {
+  color: var(--Font-Dark, #1a1f16);
+  margin-top: 20px 0 0 0;
+  /* Subtitle/Normal/Medium/Normal */
+  font-family: Cabin;
+  font-size: 30px;
+  font-weight: 600;
+}

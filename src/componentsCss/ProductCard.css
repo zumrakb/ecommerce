@@ -1,0 +1,49 @@
+.itemCard img {
+    width: 150px;
+   
+}
+
+.itemCard button {
+    width: 30px;
+}
+
+.itemCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+
+}
+
+.content {
+  margin-top:10px;
+   text-align: center;
+    display: flex;
+    flex-direction: column;
+  gap:15px;
+
+}
+
+.itemCardBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
+}
+
+
+
+.content > h3 {
+    line-height: 15px;
+    cursor:pointer;
+    margin:0;
+    
+}
+
+.content > h5 {
+    margin:0;
+    line-height: 15px;
+}
+

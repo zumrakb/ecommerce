@@ -1,0 +1,11 @@
+<svg width="24" height="32" viewBox="0 0 24 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="32" fill="#E5E5E5"/>
+<g id="Logo">
+<rect x="-15.5" y="-15.5" width="55" height="109.935" rx="4.5" stroke="#7B61FF" stroke-dasharray="10 5"/>
+<g id="Type=Transparent">
+<path id="Union" fill-rule="evenodd" clip-rule="evenodd" d="M21.4874 1L9.76744 0.999999L8.24165 8.93076H7.24165L8.88014 0.414182H8.88119L8.95741 0.0180054L22.6737 0.0180083L22.5975 0.414182H22.6001L20.9616 8.93076H19.9616L21.4874 1Z" fill="#105E46"/>
+<rect id="Rectangle 3" width="18.5019" height="22.2023" transform="matrix(1 0 -0.188924 0.981992 5.49811 9.66516)" fill="#12805D"/>
+<rect id="Rectangle 2" width="18.5019" height="22.2023" transform="matrix(1 0 -0.188924 0.981992 4.19452 8.50879)" fill="#02D693"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,73 @@
+.yourBag {
+  display: flex;
+  width: 1500px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.titleProduct {
+  font-size: 30px;
+}
+
+.headerYourBag {
+  color: var(--Font-Dark, #1a1f16);
+  text-align: center;
+  /* Title/Small/Regular/Normal */
+  font-family: Cabin;
+  font-size: 48.83px;
+  font-weight: 400;
+}
+
+.bagContents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.itemInBag {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  border-radius: 21px;
+  background: var(--UI-White, #fff);
+}
+.textContent {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.priceQuantity {
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+
+.thestars {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.increase,
+.decrease {
+  outline: none;
+  border: none;
+  background-color: white;
+}
